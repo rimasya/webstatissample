@@ -1,0 +1,97 @@
+/* pengaturan umum */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f5f9;
+    color: #333;
+}
+/* header */
+header {
+    background-color: #163a5b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+/* navbar */
+nav {
+    background-color: #24577a;
+    text-align: center;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/* konten utama */
+main {
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+/* banner */
+.banner {
+    background-color: #dcecff;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+.tombol {
+    display: inline-block;
+    background-color: #24577a;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+.tombol:hover {
+    background-color: #186cd2;
+}
+/* daftar produk */
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+/* produk */
+.produk {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px #00000013;
+}
+.produk button {
+    background-color: #24577a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.produk button:hover{
+    background-color: #186cd2;
+}
+
+/* tentang dan kontak */
+.tentang,
+.kontak {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+/* footer */
+footer{
+    background-color: #163a5b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
